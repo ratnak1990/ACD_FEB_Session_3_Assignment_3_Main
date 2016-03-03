@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Payment page</title>
+        <link href="S3A3.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <form action="s3a3.asp" method="post">
+           
+            <h4>Step 1: Your Details</h4>
+            
+                 <h5 id="name">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    <input type="textbox" class="tname" value="First and Last Name" > </h5>
+                
+                
+                <h5 id="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    <input type="textbox" class="tEmail" value="example@domain.com" > </h5>
+                
+               <h5 id="phone">Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="textbox" class="tphone" value="e.g.+44450000000" ></h5>
+                
+            <h4>Step 2:Delivery Address</h4>
+            <h5 class="address">Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows=4 column=50 class="taddress"  > </textarea></h5>
+            <h5 id="postal_code">Postal Code &nbsp;&nbsp;&nbsp;&nbsp;<input type="textbox" class="tPostalCode"  ></h5>
+            <h5 id="country">Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="textbox" class="tCountry"  ></h5>
+            <h4>Step 3:Card Details</h4>
+            <h5 id="cardType">Card Type <br>
+                <input type="radio" class="rCardType" name="typeOfCard" > <img src="visa.jpg" class="visa"> &nbsp;VISA
+                <input type="radio" class="rCardType" name="typeOfCard" > <img src="amex.jpg" class="amex">&nbsp;Amex
+                <input type="radio" class="rCardType" name="typeOfCard" > <img src="masterCard.jpg" class="masterCard">&nbsp; MasterCard
+            </h5>
+            <h5 id="cardNumber">Card Number <input type="textbox" class="tCardNumber"  > </h5>
+            <h5 id="securityCode">Security Code<input type="textbox" class="tSecurityCode"  > </h5>
+            <h5 id="cardName">Name on card <input type="textbox" class="CardHolderName"  ></h5>
+            
+            <input type="submit" value="BUY IT!" class="button1">
+            
+        </form>
+    </body>
+</html>

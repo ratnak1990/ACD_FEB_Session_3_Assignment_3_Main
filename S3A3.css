@@ -1,0 +1,73 @@
+form{
+    background-image: url("Session3A3.jpg");
+	 border-radius: 8px;
+	height: 1000px;
+    width: 600px;
+     margin-left: 300px;
+    
+}
+
+
+h5.address{
+    
+    margin-left: 50px;
+    color: black;
+    width: 500px;
+    height:110px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217,0.8);
+    padding-left: 20px;
+    padding-top: 5px;
+	text-align: left;
+}
+h5{
+   
+    margin-left: 50px;
+    color: black;
+    width: 500px;
+    height:40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217,0.8);
+    padding-left: 20px;
+    padding-top: 5px;
+    
+    
+}
+h4{
+   color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top:  20px;
+    
+}
+
+.button1{
+    width:100px;
+    height:30px;
+    margin-left: 260px;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+.tname,.tEmail,.tphone,.tPostalCode,.tCountry,.tCardNumber,.tSecurityCode,.CardHolderName
+{
+    width: 200px;
+    height:15px;
+    border-radius: 5px;
+    margin-left: 50px;
+    color: darkgray;
+    padding: 8px
+}
+.taddress{
+	border-radius: 5px;
+    margin-left: 50px;
+    
+    padding: 8px
+}
+.visa,.amex,.masterCard{
+	padding-top:2px;
+	width:30px;
+	height:12px;
+}
